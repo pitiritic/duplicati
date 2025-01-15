@@ -12,5 +12,5 @@ services:
       - ./backups:/backups
       - /root/docker:/source
     ports:
-      - "8201:8201"
+      - "8200:8200"
     restart: unless-stopped
